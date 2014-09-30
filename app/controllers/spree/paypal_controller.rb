@@ -172,7 +172,7 @@ module Spree
     end
 
     def address_required?
-      payment_method.preferred_solution.eql?('Sole')
+      false
     end
   end
 end
